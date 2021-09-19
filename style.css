@@ -13,3 +13,46 @@ img {
 	border-radius: 50%;
 	background: blue;
 }
+
+#landing {
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery {
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+
+}
+
+h2 {
+
+color: #007bff;
+}
+
+.tools {
+  padding: 25px;
+  height: 200px;
+  border: 5px solid #f2f2f2;
+  margin: 20px;
+  width: 75%;
+  color: white;
+}
+
+html{
+
+	scroll-behavior: smooth;
+}
